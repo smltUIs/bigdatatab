@@ -1,0 +1,159 @@
+@charset "utf-8";
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+	margin:0;
+	padding:0;
+}
+body,html{
+    height: 100%;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    width: 100%;
+    background: url(../image/bg_body.jpg);
+	}
+ul,ol,li{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	cursor: pointer;
+	}
+img{
+	border:none;
+    }
+header{
+    width: 100%;
+    height:80px;
+    background: url(../image/bg_title.png) no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 80px;
+    color: #fff;
+    margin: 10px 0;
+}
+section{
+    width: 100%;
+    overflow: hidden;
+}
+section .left,.right{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+section  .box{
+    width: 100%;
+    height: 300px;
+    background: url(../image/bg_box1.png) no-repeat;
+    background-size: 100% 100%;
+}
+section  .box .tit{
+    width: 98%;
+    height: 60px;
+    font-size: 20px;
+    color: #ff9000;
+    line-height: 60px;
+    background: url(../image/title_icon.png) no-repeat left center;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-left: 2%;
+}
+section .left .box{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+}
+section .left .box2{
+    width: 100%;
+    height: 430px;
+    margin-bottom: 20px;
+}
+section .left #oneChart{
+    width: 100%;
+    height: 290px;
+}
+section .left #twoChart{
+    width: 100%;
+    height: 370px;
+}
+section .content{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+section .content .box{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+section .content .box .body{
+    width: 100%;
+    height: 340px;
+}
+section .content .body .bodyleft{
+    width: 30%;
+    height: 340px;
+    float: left;
+}
+section .content .body .bodyright{
+    width: 70%;
+    height: 340px;
+    float: left;
+}
+section .content .body .bodyright .num{
+    width: 100%;
+    height: 100px;
+}
+.content .body .bodyright .num .data{
+    width: 30%;
+    height: 80px;
+    float: left;
+    background: url(../image/data_icon.png) no-repeat;
+    background-size: 100% 100%;
+    margin-right: 3%;
+    text-align: center;  
+    font-size: 22px;
+    color: #FFFFFF;
+    padding-top: 20px
+}
+.content .body .bodyright .num .data small{
+    color: #ff9000;
+}
+section .content .body .bodyright .rightChart{
+    width: 100%;
+    height: 240px;
+}
+section .content #fiveChart{
+    width: 100%;
+    height: 340px;
+}
+
+section .right .box{
+    width: 100%;
+    height: 820px;
+    margin-bottom: 20px;
+}
+section .right .box .lastChart{
+    width: 100%;
+    height: 350px;
+}
+section .right .lis{
+    width: 100%;
+    height: 350px;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+section .right .lis li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    list-style: none;
+    border-bottom: 1px dashed #dbdbdb;
+    color: #F5F5F5;
+    overflow: hidden;
+    font-size: 12px;
+}
+
